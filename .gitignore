@@ -1,0 +1,39 @@
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Node / frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Databases and local data
+*.sqlite3
+*.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
